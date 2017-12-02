@@ -10,9 +10,9 @@ LINUX - how to install X2 driver:
 
 Mac OSX - how to install X2 driver:
 -----------------------------------
-1) Copy qhyccdx2plugin-1.0.0-macos-i386.tar.gz to the Contents subdirectory of your TheSkyX. In my case, TheSkyX is installed at: /Applications/TheSkyX Professional Edition.app, so I have to go to the Contents subdir: cd Contents
-2) Untar the targz file there using: tar xzvf qhyccdx2plugin-1.0.0-macos-i386.tar.gz
-3) Go to the install_scripts: cd qhyccdx2plugin-1.0.0-macos-i386/install_scripts/
+1) Copy qhyccdx2plugin-1.x.x-macos-i386.tar.gz to the Contents subdirectory of your TheSkyX. In my case, TheSkyX is installed at: /Applications/TheSkyX Professional Edition.app, so I have to go to the Contents subdir: cd Contents
+2) Untar the targz file there using: tar xzvf qhyccdx2plugin-1.x.x-macos-i386.tar.gz
+3) Go to the install_scripts: cd qhyccdx2plugin-1.x.x-macos-i386/install_scripts/
 4) Run installer: sudo ./macos_install_qhyccd_x2_driver.sh
 5) Start TheSkyX and you should be able to connect to your QHYCCD camera. 
 
